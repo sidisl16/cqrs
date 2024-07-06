@@ -4,6 +4,8 @@ import com.techbank.account.common.dto.AccountType;
 import com.techbank.cqrs.core.commands.BaseCommand;
 import lombok.Data;
 
+import java.util.Date;
+
 @Data
 public class OpenAccountCommand extends BaseCommand {
 
